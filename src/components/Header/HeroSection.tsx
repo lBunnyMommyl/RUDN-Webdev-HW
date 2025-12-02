@@ -5,7 +5,6 @@ const HeroSection: React.FC = () => {
   return (
     <div className={styles.container}>
       <div className={styles.hero}>
-        {/* Декоративные элементы Hero */}
         <img 
           src="/images/leaf.png" 
           className={`${styles['overlay-image']} ${styles['overlay-1']}`} 
